@@ -1,0 +1,207 @@
+
+#title
+{
+  background-color: #ff4c68;
+}
+.container-fluid
+{
+  padding:3% 15% 5% 15%;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.5;
+  font-size: 3.5rem;
+  color:white;
+  text-align: left;
+  margin-left: 20px;
+}
+.Download-buttons
+{
+  margin:5% 3% 5% 0;
+}
+/* Navigation bar */
+.navbar
+{
+  padding: 0 0 3.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size:2rem;
+  font-weight:bold;
+  margin-left: 20px;
+}
+.nav-item
+{
+  padding: 0 18px 0 18px;
+}
+.nav-link
+{
+  font-size:1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+/*Title image*/
+.title-image
+{
+  width: 170%;
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  margin-left: 40px;
+  position:absolute;
+  z-index: 0;
+}
+.row{
+  text-align:center;
+  font-family:'Montserrat',sans-serif;
+}
+#features
+{
+  padding: 8% 13%;
+  position:relative;
+  z-index: 1;
+  background-color: white;
+}
+.feature-box
+{
+  text-align:  center;
+}
+h3
+{
+  font-family: 'Montserrat',sans-serif;
+}
+p
+{
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.icon
+{
+   color:#ef8172;
+   margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#ff4c68
+}
+
+
+/*-- Testimonials --*/
+
+#testimonials
+{
+  text-align: center;
+  background-color:#ef8172;
+}
+h2
+{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  }
+.testimonial-image
+{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+
+}
+
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo
+{
+  margin:20px 20px 50px;
+  width:15%;
+}
+
+/*Pricing*/
+
+
+#pricing
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.font-pricing
+{
+  color:#000;
+}
+
+.card-header
+{
+  text-align: center;
+  margin:0;
+}
+
+.card-deck
+{
+  margin:50px 50px;
+
+}
+
+#cta
+{
+  background-color: #ff4c68;
+  padding:5% 5%;
+  text-align: center;
+}
+.last-font
+{
+  color:#fff;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 40px;
+
+}
+
+#footer
+{
+ text-align: center;
+ padding:2% 2%;
+ margin-top: 30px;
+}
+
+.last
+{
+  font-size: 13px;
+}
+
+.fab
+{
+  margin-left:10px;
+  padding-bottom: 10px;
+}
+
+@media(max-width:1020px)
+{
+#title
+  {
+    text-align: center;
+  }
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+    width:50%;
+  }
+  .row
+  {
+    text-align: center;
+  }
+    h1
+    {
+    text-align: center;
+    }
+  }
